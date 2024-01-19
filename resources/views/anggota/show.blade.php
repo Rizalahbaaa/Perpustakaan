@@ -18,6 +18,10 @@
             <div class="mb-4">
                 <strong>Alamat:</strong> {{ $anggota->alamat }}
             </div>
+            <div class="mb-4">
+            <a href="{{ route('anggota.index') }}" class="bg-blue-400 text-white py-2 px-4 rounded">Kembali</a>
+            </div>
+
         </div>
             </div>
 @endsection

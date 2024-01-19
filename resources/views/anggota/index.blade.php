@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="container mx-auto p-8">
-        <h1 class="text-3xl font-bold mb-8">Data Master Anggota</h1>
+        <h1 class="text-3xl font-bold mb-8">Data Anggota Perpustakaan</h1>
 
         <!-- Tambah Anggota Button -->
         <a href="{{ route('anggota.create') }}" class="bg-blue-500 text-white py-2 px-4 rounded mb-4 inline-block">Tambah Anggota</a>

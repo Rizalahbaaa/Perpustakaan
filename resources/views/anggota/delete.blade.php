@@ -8,7 +8,7 @@
         <div class="bg-white p-4 rounded-md shadow-md">
             <p>Anda yakin ingin menghapus anggota dengan nama: {{ $anggota->nama }}?</p>
                 <button type="submit" class="bg-red-500 text-white py-2 px-4 rounded mt-4">Hapus Anggota</button>
-                <a href="{{ route('anggota.index') }}" class="bg-gray-400 text-white py-2 px-4 rounded">Batal</a>
+                <a href="{{ route('anggota.index') }}" class="bg-blue-400 text-white py-2 px-4 rounded">Batal</a>
             </form>
         </div>
     </div>
